@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-900);
+}
+
+body,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --gray-900: #121214;
+  --gray-800: #323238;
+  --gray-700: #8d8d99;
+  --gray-600: #bdbdbd;
+  --gray-500: #e1e1e6;
+  --gray-400: #ebebf0;
+  --blue-400: #2d9cdb;
+}
+
+body.light {
+  background: rgba(215, 222, 245, 0.12);
+
+  --gray-800: #fff;
+  --gray-600: #323238;
+  --gray-500: #333;
+  --gray-400: #333;
+}
